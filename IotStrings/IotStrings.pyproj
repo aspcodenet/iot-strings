@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b8f236e9-c552-4c53-a99d-6ec377071230</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IotStrings.py</StartupFile>
+    <StartupFile>Lab10.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="IotStrings.py" />
+    <Compile Include="Lab10.py" />
+    <Compile Include="Lab9.py" />
+    <Compile Include="Lab7.py" />
+    <Compile Include="Lab6.py" />
+    <Compile Include="Lab5.py" />
+    <Compile Include="Lab4.py" />
+    <Compile Include="Lab3.py" />
+    <Compile Include="Lab2.py" />
+    <Compile Include="Lab1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
